@@ -50,12 +50,9 @@ const TimeLeft = ({ breakLength, sessionLength}) => {
                 }
 
             });
-        }, 1000); // TODO: turn back into 1000
+        }, 1000);
         setIntervalId(newIntervalId);
         }
-
-
-
     
     };
 
